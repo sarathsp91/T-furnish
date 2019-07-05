@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Furnish - Furniture and Decor 
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="mainbody">
+        <div class="topportion">
+            <div class="topleft">
+                <img src="logo.png">
+            </div>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#team">Team</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="body1">
+            <div class="side">
+                <button id="dot1 active" class="btn1" onclick="myfunction1()"></button>
+                <button id="dot2" class="btn2" onclick="myfunction2()"></button>
+                <button id="dot3" class="btn3" onclick="myfunction3()"></button>
+                <script>
+                        function myfunction1() {
+                            document.getElementById("dot1").style.zIndex = 3;
+                            document.getElementById("dot2").style.zIndex = 2;
+                            document.getElementById("dot3").style.zIndex = 1;
+                        }
+                        function myfunction2() {
+                            document.getElementById("dot1").style.zIndex = 2;
+                            document.getElementById("dot2").style.zIndex = 3;
+                            document.getElementById("dot3").style.zIndex = 1;
+                        }
+                        function myfunction3() {
+                            document.getElementById("dot1").style.zIndex = 1;
+                            document.getElementById("dot2").style.zIndex = 2;
+                            document.getElementById("dot3").style.zIndex = 3;
+                        }
+                        </script>
+                        
+            </div>
+            <div id="dot1">
+            <div class="bodyleft">
+                    <img class = "image1" src="1.jpg">
+                    <div class="circle">
+                        <span><strong>-50%</strong></span>
+                        <span><strong>OFF</strong></span>
+                        </div>
+            </div>
+            <div class="bodyright">
+<div class="para1">
+    <Span><strong>Sofa and </strong></Span>
+    <span> <strong>Armchairs</strong></span>
+</div>
+<div class="para2">
+    <p>
+    One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the 
+    far World of Grammar.
+</p>
+</div>
+<button type="button" class="button1">Download Now! ></button>
+<hr class="line">
+</div>
+</div>
+    <div class="dot2">
+        <div class="bodyleft">
+                <div class="circle">
+                    <span><strong>-20%</strong></span>
+                    <span><strong>OFF</strong></span>
+                    </div>
+                    <img class = "image1" src="2.jpg">
+        </div>
+        <div class="bodyright">
+<div class="para1">
+<Span><strong>Winter Sale! </strong></Span>
+<span> <strong>is Here</strong></span>
+</div>
+<div class="para2">
+<p>
+One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the 
+far World of Grammar.
+</p>
+</div>
+<button type="button" class="button1">Download Now! ></button>
+<hr class="line">
+</div>
+</div>
+
+<div class="dot3">
+        <div class="bodyleft">
+                <div class="circle">
+                    <span><strong>FREE%</strong></span>
+                    <span><strong>QUOTE</strong></span>
+                    </div>
+                    <img class = "image1" src="3.jpg">
+        </div>
+        <div class="bodyright">
+<div class="para1">
+<Span><strong>Sofa and </strong></Span>
+<span> <strong>Armchairs</strong></span>
+</div>
+<div class="para2">
+<p>
+One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the 
+far World of Grammar.
+</p>
+</div>
+<button type="button" class="button1">Download Now! ></button>
+<hr class="line">
+</div>
+</div>
+        </div>
+        
+    </body>
+</html>
